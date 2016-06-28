@@ -1,5 +1,6 @@
 .word-container {
-  width: 50%;
+  width: 35%;
+  min-width: 300px;
 }
 .title {
 
@@ -9,4 +10,13 @@
 }
 .image-container {
   width: 50%;
+  min-width: 300px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-picture {
+  width: 100%;
 }
