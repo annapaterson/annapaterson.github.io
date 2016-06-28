@@ -2,12 +2,6 @@
   width: 35%;
   min-width: 300px;
 }
-.title {
-
-}
-.email {
-
-}
 .image-container {
   width: 50%;
   min-width: 300px;
@@ -16,7 +10,14 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .main-picture {
   width: 100%;
+}
+@media (min-width: 600px){
+  .main {
+    margin-top: 100px;
+  }
+  .word-container {
+    padding-left: 50px;
+  }
 }
