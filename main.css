@@ -9,6 +9,7 @@
 }
 .main {
   display: flex;
+  display: -ms-flexbox;
   flex-wrap: wrap;
 }
 .main-picture {
