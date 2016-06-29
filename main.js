@@ -1,6 +1,9 @@
 window.onload = function () {
 
     const picOne = document.querySelector('.pic-one');
+
+    picOne.style.visibility = 'visible';
+
     const bkgroundImageTarget = document.querySelector('.bkgroundImageTarget');
 
     bkgroundImageTarget.innerHTML = `<img class="pic-two main-picture"

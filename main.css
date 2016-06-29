@@ -24,6 +24,9 @@ html {
 .main-picture {
   width: 100%;
 }
+.pic-one {
+  visibility: hidden;
+}
 .pic-two {
   display: none;
 }
