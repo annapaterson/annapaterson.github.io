@@ -1,5 +1,5 @@
-const bkGroundImageTarget = document.querySelector('.bkGroundImageTarget');
-bkGroundImageTarget.innerHTML = `<img class="pic-two main-picture"
+const bkgroundImageTarget = document.querySelector('.bkgroundImageTarget');
+bkgroundImageTarget.innerHTML = `<img class="pic-two main-picture"
                      sizes="(min-width: 725px) 50vw, 100vw"
                      srcset="
                              images/two/picture-two-fs8_vkb8w2_c_scale,w_200.png 200w,
