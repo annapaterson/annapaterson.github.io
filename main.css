@@ -2,6 +2,9 @@ html {
   font-family: arial;
   font-size: 14px;
 }
+.main {
+  margin-top: 30px;
+}
 .title {
   display: inline-block;
 }
@@ -12,11 +15,10 @@ html {
   cursor: pointer;
 }
 .word-container {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .image-container {
   width: 100%;
-  min-width: 300px;
   cursor: pointer;
 }
 .main-picture {
@@ -27,10 +29,10 @@ html {
 }
 @media (min-width: 725px){
   .main {
-    margin-top: 100px;
     padding-left: 50px;
   }
   .image-container {
     width: 50%;
+    min-width: 500px;
   }
 }
