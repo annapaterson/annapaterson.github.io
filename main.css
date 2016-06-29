@@ -1,9 +1,10 @@
 .word-container {
   width: 35%;
   min-width: 300px;
+  margin-bottom: 20px;
 }
 .image-container {
-  width: 50%;
+  width: 100%;
   min-width: 300px;
 }
 .main {
@@ -13,11 +14,14 @@
 .main-picture {
   width: 100%;
 }
-@media (min-width: 600px){
+@media (min-width: 725px){
   .main {
     margin-top: 100px;
   }
   .word-container {
     padding-left: 50px;
+  }
+  .image-container {
+    width: 50%;
   }
 }
