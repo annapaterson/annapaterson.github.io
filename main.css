@@ -12,19 +12,12 @@ html {
   cursor: pointer;
 }
 .word-container {
-  width: 35%;
-  min-width: 300px;
   margin-bottom: 20px;
 }
 .image-container {
   width: 100%;
   min-width: 300px;
   cursor: pointer;
-}
-.main {
-  display: flex;
-  display: -ms-flexbox;
-  flex-wrap: wrap;
 }
 .main-picture {
   width: 100%;
@@ -35,11 +28,9 @@ html {
 @media (min-width: 725px){
   .main {
     margin-top: 100px;
-  }
-  .word-container {
     padding-left: 50px;
   }
   .image-container {
-    width: 45%;
+    width: 50%;
   }
 }
