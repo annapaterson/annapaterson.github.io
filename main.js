@@ -1,5 +1,8 @@
+const picOne = document.querySelector('.pic-one');
 const bkgroundImageTarget = document.querySelector('.bkgroundImageTarget');
-bkgroundImageTarget.innerHTML = `<img class="pic-two main-picture"
+
+picOne.addEventListener('load', () => {
+    bkgroundImageTarget.innerHTML = `<img class="pic-two main-picture"
                      sizes="(min-width: 725px) 50vw, 100vw"
                      srcset="
                              images/two/anna-paterson-2-w_200.png 200w,
@@ -10,15 +13,15 @@ bkgroundImageTarget.innerHTML = `<img class="pic-two main-picture"
                      src="images/two/anna-paterson-2-w_720.png"
                      alt="Anna Paterson">`;
 
-const picOne = document.querySelector('.pic-one');
-const picTwo = document.querySelector('.pic-two');
+    const picTwo = document.querySelector('.pic-two');
 
-picOne.addEventListener('click', function (e) {
-    picOne.style.display = 'none';
-    picTwo.style.display = 'block';
-});
+    picOne.addEventListener('click', function (e) {
+        picOne.style.display = 'none';
+        picTwo.style.display = 'block';
+    });
 
-picTwo.addEventListener('click', function (e) {
-    picTwo.style.display = 'none';
-    picOne.style.display = 'block';
+    picTwo.addEventListener('click', function (e) {
+        picTwo.style.display = 'none';
+        picOne.style.display = 'block';
+    });
 });
