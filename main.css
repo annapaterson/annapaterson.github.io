@@ -10,9 +10,7 @@ html {
 }
 .email {
   padding-left: 50px;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
+  display: inline-block;
 }
 .word-container {
   margin-bottom: 30px;
@@ -35,7 +33,7 @@ html {
     padding-left: 50px;
   }
   .image-container {
-    width: 50%;
+    width: 30%;
     min-width: 500px;
   }
 }
