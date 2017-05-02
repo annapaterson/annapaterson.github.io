@@ -1,39 +1,33 @@
-html {
-  font-family: arial;
-  font-size: 13px;
+body {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-right: 20px;
+	min-height: 100px;
+	max-width: 950px;
+	font-size: 15px;
+	font-family: "Times New Roman", Times, Serif;
+	line-height: 40px
 }
-.main {
-  margin-top: 30px;
+header {
+	margin-bottom: 100px;
 }
-.title {
-  display: inline-block;
+.contact {
+	position: absolute;
+	top: 8px;
+	right: 20px;
 }
-.email {
-  padding-left: 14px;
-  display: inline-block;
+.caption {
+	margin-bottom: 7px;
 }
-.word-container {
-  margin-bottom: 30px;
+img {
+	margin-bottom: 100px;
+	max-width:100%;
+	max-height:650px;
 }
-.image-container {
-  width: 100%;
-  cursor: pointer;
+a {
+	text-decoration: none;
+	color: inherit;
 }
-.main-picture {
-  width: 100%;
-}
-.pic-one {
-  visibility: hidden;
-}
-.pic-two {
-  display: none;
-}
-@media (min-width: 725px){
-  .main {
-    padding-left: 50px;
-  }
-  .image-container {
-    width: 30%;
-    min-width: 500px;
-  }
+a:hover {
+	color: #062CFF;
 }
